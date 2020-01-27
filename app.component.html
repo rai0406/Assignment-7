@@ -1,0 +1,22 @@
+<body >
+  <table border = "1">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Salary</th>
+      <th>Department</th>
+      <th>Joining date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor=" let employee of Employees">
+    <td>{{employee.empId}}</td>
+    <td>{{employee.empName}}</td>
+    <td>{{employee.empSal}}</td>
+    <td>{{employee.empDep}}</td>
+    <td>{{employee.empjoiningdate}}</td>
+    </tr>
+  </tbody>
+</table>
+</body>
